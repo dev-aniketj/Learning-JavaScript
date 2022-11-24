@@ -9,7 +9,17 @@ for (let i = 0; i < 5; i++) {
 }
 
 for (var i = 0; i < 10; i++) {
-  if (i == 7) break;
+  if (i == 8) break;
   if (i % 2 == 1) continue;
   console.log("hello", i);
+}
+
+let vowels = ["a", "e", "i", "o", "u"];
+for (let i = 0; i < vowels.length; i++) {
+  console.log(vowels[i]);
+}
+
+let fruits = new Array("apple", "banana", "mango", "watermelon", "orange");
+for (let i = 0; i < fruits.length; i++) {
+  console.log(fruits[i]);
 }
